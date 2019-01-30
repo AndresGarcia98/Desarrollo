@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="Example.css">
+    <title>Biografia</title>
+</head>
+
+<body>
+    <h1>MY HISTORY</h1>
+    <p>Nací el 13 de febrero de 1998, en la ciudad de <b>Río Negro, Antioquia</b>, a las 6:30 pm.
+        Mis padres en el 2003, cuando tenía 5 años de edad se mudaron a la ciudad de popayán,
+        luego se mudaqron de nuevo a un pueblito kejano que, en donde curse mi primaria.</p>
+        <br/>
+    <p>A mitad del año 2099 me mude de nuevo a la ciudad de popayán </p>
+
+</body>
+
+</html>
