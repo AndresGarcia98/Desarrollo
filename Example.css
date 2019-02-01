@@ -1,0 +1,42 @@
+
+h1 {
+    text-align: center;
+    color: aqua;
+}
+
+p{
+    font-size: 18px;
+    font-style: inherit;
+    float: left;
+}
+br{
+    size: 10px;
+}
+
+ul{
+    margin: 30px 30px;
+    display: block;
+}
+.contenedor{
+    margin: 10px 60px 50px 20px;
+}
+
+#Seccion2{
+    margin: 60px;
+}
+
+#Seccion3{
+    margin-left: 250px;
+    margin-bottom: 10px;
+}
+
+table{
+    margin-bottom: 50px;
+    align-self: auto;
+}
+
+img{
+    float: right;
+    
+}
+
