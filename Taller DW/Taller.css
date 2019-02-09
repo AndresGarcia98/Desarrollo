@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+    color: blue;
+}
+
+h2{
+    text-align: center;
+    color:whitesmoke;
+}
+
+body{
+    background-image: url("http://bsost.com/wp-content/themes/seiacair/images/2016-lyucifer-sezon-2-soundtrack.jpg");
+}
+
+p{
+    color: white;
+}
+
+ul{
+    color: white;
+    text-align: center;
+}
+
+div{
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+li{
+    text-align: center;
+}
+
+#videos{
+    text-align: center;
+}
+
