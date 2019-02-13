@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+
+</head>
+
+<body>
+    <form>
+        <label>Nombre</label>
+        <input id="name" value="" type="text" placeholder="Ingrese su nombre" />
+
+        <input id="age" value="" type="number" placeholder="Ingrese su edad" />
+
+    </form>
+
+    <button onclick="addStudent()">Guardar</button>
+    <div id="studentsList"></div>
+
+    <hr/>
+    
+    <h3>Con tabla</h3>
+    <table border=1>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Editar</th>
+                <th>Eliminar</th>
+            </tr>
+        </thead>
+        <tbody id="studentsListTable">
+
+        </tbody>
+    </table>
+    <script src="main.js"></script>
+</body>
+
+</html>
