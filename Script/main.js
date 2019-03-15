@@ -1,6 +1,9 @@
-var students = [
-    { name: 'Saurmo', age: 15 }
-];
+var students = [{ name: 'Saurmo', age: 15 }];
+
+var data = localStorage.getItem('datas');
+
+
+console.log(data);
 
 
 function addStudent() {
@@ -23,6 +26,7 @@ function addStudent() {
     console.log(object);
     console.log(data);
 
+
     students.push(objectStudent);
     console.log(students);
 
@@ -31,7 +35,10 @@ function addStudent() {
 
 }
 function getAll() {
-    //document.getElementById('studentsList').innerText = JSON.stringify(students)
+    students = localStorage.getItem('datas')
+    if(students.length != 0){
+        console.log(JSON.parse(students))
+    }
     var row = ''
     students.forEach(element => {
         console.log(element)
@@ -40,9 +47,14 @@ function getAll() {
         row += '<td>' + element.age + '</td>'
         row += '<td> <button>Editar</button> </td>'
         row += '<td> <button>Eliminar</button> </td>'
-        row += '<tr>'
+        row += '</tr>'
         document.getElementById('studentsListTable').innerHTML = row;
+        //localStorage.setItem()
         console.log(document.getElementById('studentsListTable'));
+        
+        console.log(JSON.stringify(students))
+
+        localStorage.setItem('datas', JSON.stringify(students));
     });
 }
-getAll()
+//getAll()

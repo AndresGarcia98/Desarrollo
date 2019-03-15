@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Estudiar Parcial</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+</head>
+
+<body>
+    <h1>Práctica para el parcial</h1>
+    <form id="inputData">
+        <label> Datos del usuario</label>
+        <input type="text" value="" placeholder="Ingrese su nombre" id="name">
+        <input type="number" value="" placeholder="Ingrese su edad" id="age">
+    </form>
+    <button onclick="saveData()">Guardar</button>
+    <button onclick="cancel()">Cancelar</button>
+
+    <div id="listData"></div>
+
+    <hr />
+
+    <h3>Datos</h3>
+
+    <table border="1">
+        <thead>
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th>Eliminar</th>
+            <th>Editar</th>
+        </thead>
+
+        <tbody id="listDataTable">
+        </tbody>
+    </table>
+    <script src="main.js"></script>
+</body>
+
+</html>
